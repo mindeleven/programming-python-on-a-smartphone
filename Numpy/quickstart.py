@@ -12,6 +12,12 @@ import numpy as np
 # [[1, 4, 6], [3, 7, 8]]
 
 # numpy's array class id called nd array
+# creating an array from a regular python list or tuple
+a = np.array([2, 3, 4])
+print(a)
+# describing the type of elements in an array
+print(a.dtype)
+#
 a = np.arange(15).reshape(3, 5)
 
-print(a)
+# print(a)
