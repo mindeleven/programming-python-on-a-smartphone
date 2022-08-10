@@ -17,6 +17,11 @@ a = np.array([2, 3, 4])
 print(a)
 # describing the type of elements in an array
 print(a.dtype)
+# number of axes
+print(a.ndim)
+# shape: dimensions of an array
+# returns tuple of integers
+print(a.shape)
 #
 a = np.arange(15).reshape(3, 5)
 
