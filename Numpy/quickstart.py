@@ -22,7 +22,9 @@ print(a.ndim)
 # shape: dimensions of an array
 # returns tuple of integers
 print(a.shape)
-#
+# ndarray.size -> the total number of elements 
+# equal to the product of the elements of shape
+print(a.size)
 a = np.arange(15).reshape(3, 5)
 
 # print(a)
