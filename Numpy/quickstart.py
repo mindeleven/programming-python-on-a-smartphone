@@ -25,6 +25,9 @@ print(a.shape)
 # ndarray.size -> the total number of elements 
 # equal to the product of the elements of shape
 print(a.size)
+# ndarray.itemsize -> the size in bytes of each element of the array
+print(a.itemsize) 
+#
 a = np.arange(15).reshape(3, 5)
 
 # print(a)
